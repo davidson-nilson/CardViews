@@ -18,6 +18,9 @@
 .card:hover .capa{
     height: 175px;
     transition: all .5s;
+    filter: opacity(50%);
+        -webkit-filter: opacity(50%);
+        -moz-filter: opacity(50%);
 }
 .info{
     padding: 10px;
@@ -47,9 +50,6 @@
     .card:hover .capa{
         height: 100px;
         transition: all .5s;
-        filter: opacity(50%);
-        -webkit-filter: opacity(50%);
-        -moz-filter: opacity(50%);
     }
     .info{
         padding: 5px;
