@@ -1,0 +1,113 @@
+.card{
+    width: 300px;
+    height: 400px;
+    background-color:  #020017;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all .5s;
+}
+.capa{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    transition: all .5s;
+    border-radius: 25px;
+    background-size:cover;
+}
+.card:hover .capa{
+    height: 175px;
+    transition: all .5s;
+}
+.info{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 175px;
+    font-size:medium;
+    text-align: justify;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    transition: all .5s;
+}
+
+@media (min-width: 650px) {
+    .card{
+        width: 200px;
+        height: 285px;
+        transition: all .5s;
+    }
+    .capa{
+        height: 285px;
+        width: 200px;
+        transition: all .5s;
+    }
+    .card:hover .capa{
+        height: 100px;
+        transition: all .5s;
+        filter: opacity(50%);
+        -webkit-filter: opacity(50%);
+        -moz-filter: opacity(50%);
+    }
+    .info{
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 100px;
+        font-size:x-small;
+        height: 175px;
+        transition: all .5s;
+    }
+}
+@media (min-width: 1000px) {
+    .card{
+        width: 300px;
+        height: 430px;
+        transition: all .5s;
+    }
+    .capa{
+        height: 430px;
+        width: 300px;
+        transition: all .5s;
+    }
+    .card:hover .capa{
+        height: 175px;
+        transition: all .5s;
+    }
+    .info{
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 175px;
+        font-size:medium;
+        height: 230px;
+        transition: all .5s;
+    }
+}
+@media (min-width: 1400px) {
+    .card{
+        width: 350px;
+        height: 500px;
+        transition: all .5s;
+    }
+    .capa{
+        height: 500px;
+        width: 350px;
+        transition: all .5s;
+    }
+    .card:hover .capa{
+        height: 175px;
+        transition: all .5s;
+    }
+    .info{
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 175px;
+        font-size: large;
+        height: 300px;
+        transition: all .5s;
+    }
+}
